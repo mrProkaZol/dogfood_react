@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./App"
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <div title="Doggy">
-    <h1>Hello</h1>
-    <h2>
-      <mark>React</mark>
-    </h2>
-  </div>
+  <App/>
 )
+
+/*
+  JSX - html c движком js
+  <h1>123</h1> => React.createElement("h1", null, "123")
+*/
